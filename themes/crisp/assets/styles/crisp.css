@@ -6,7 +6,7 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans", sans-serif;
+	font: 81.2%/1.65 "Open Sans",sans-serif;
 	font-weight: 300;
 	color:#444;
 }
@@ -46,7 +46,9 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+	/*
 	font-family: "Bree Serif", serif;
+	*/
 	font-weight: 400 !important;
 }
 h1 {
@@ -140,11 +142,13 @@ header h1 a:hover {
 	text-decoration:none;
 }
 header #logo img {
-	width:9em;
-	height:9em;
+	width:13.5em;
+	height:13.5em;
+	/*
 	border-radius:4.5em;
 	-moz-border-radius: 4.5em;
 	-webkit-border-radius: 4.5em;
+	*/
 	border: none;
 }
 #follow-icons {
